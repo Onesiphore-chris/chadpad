@@ -1,0 +1,73 @@
+<?php
+
+    session_start();
+    require_once 'config.php';
+
+     
+   if(!empty($_POST['submit'])){
+            var_dump($_POST);
+        $fname = htmlspecialchars($_POST['fname']);
+        $lname = htmlspecialchars($_POST['lname']);
+        $email = htmlspecialchars($_POST['email']);
+        $keyfram = htmlspecialchars($_POST['keyfram']);
+       /* $image = $_FILES['image']['name'];
+        $image_size = $_FILES['image']['size'];
+        $image_tmp_name = $_FILES['image']['tmp_name'];
+        $image_folder = 'images/'.$image; */
+        die('ok');
+        $select = $dbb->prepare("SELECT * FROM `messagerie` WHERE email = '$email' AND password = '$password'");
+        $select->execute();
+        $data = $select->fetch();
+        $row = $select->rowCount();
+           
+        if($row > 0){
+            $message[] = 'user alrealy exit';
+        }else{
+            $key = hash('md5', $password);
+            $insert = $dbb->prepare("INSERT INTO `messagerie`(fname, lname, email, password, image) VALUES('{$fname}', '{$lname}', '{$email}', '{$key}', '{$image}')");
+            $insert->execute();
+        }
+            die('false');
+    }
+    else{
+        echo'ok';
+    }
+
+    
+
+
+    
+
+
+
+
+   
+ /*if(!empty($_POST['fname']) && 
+!empty($_POST['lname']) && 
+!empty($_POST['email']) && 
+!empty($_POST['password']) && 
+!empty($_POST['image']) ){
+    die('ok');
+    $fname = htmlspecialchars($_POST['fname']);
+    $lname = htmlspecialchars($_POST['lname']);
+    $email = htmlspecialchars($_POST['email']);
+    $password = htmlspecialchars($_POST['password']);
+      $image = $_FILES['image']['name'];
+      /*  $image_size = $_FILES['image']['size'];
+        $image_tmp_name = $_FILES['image']['tmp_name'];
+        $image_folder = 'images/'.$image; 
+       
+             
+
+} die('false');
+
+*/
+
+    
+
+
+
+
+
+
+?>
