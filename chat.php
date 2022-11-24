@@ -13,7 +13,7 @@
         <section class="chat-area">
             <header>
                 <a href="" class=".back-icon" style="color:#f17917;"><i class="fas fa-arrow-left"></i></a>
-                    <img src="" alt="">
+                    <img src="images/chris.jpg" alt="">
                     <div class="details">
                         <span>Chris le Conquerant</span>
                         <p>Active Now</p>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="chat incoming">
-                    <img src="" alt="">
+                    <img src="images/chris.jpg" alt="">
                     <div class="details">
                         <p>Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="chat incoming">
-                    <img src="" alt="">
+                    <img src="images/chris.jpg" alt="">
                     <div class="details">
                         <p>Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="chat incoming">
-                    <img src="" alt="">
+                    <img src="images/chris.jpg" alt="">
                     <div class="details">
                         <p>Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="chat incoming">
-                    <img src="" alt="">
+                    <img src="images/chris.jpg" alt="">
                     <div class="details">
                         <p>Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <div class="chat incoming">
-                    <img src="" alt="">
+                    <img src="images/chris.jpg" alt="">
                     <div class="details">
                         <p>Lorem ipsum dolor sit amet consectetur.</p>
                     </div>

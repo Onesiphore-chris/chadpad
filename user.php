@@ -13,7 +13,7 @@
         <section class="form users">
            <header>
                <div class="content">
-                   <img src="" alt="">
+                   <img src="images/chris.jpg" alt="">
                    <div class="details">
                        <span>Chris le Conquerant</span>
                        <p>Active Now</p>
@@ -30,7 +30,7 @@
            <div class="users-list">
                <a href="">
                <div class="content">
-                   <img src="" alt="">
+                   <img src="images/chris.jpg" alt="">
                    <div class="details">
                        <span>Chris le Conquerant</span>
                        <p>This is the text message</p>
@@ -40,7 +40,7 @@
                </a>
                <a href="">
                <div class="content">
-                   <img src="" alt="">
+                   <img src="images/chris.jpg" alt="">
                    <div class="details">
                        <span>Chris le Conquerant</span>
                        <p>This is the text message</p>
@@ -50,7 +50,7 @@
                </a>
                <a href="">
                <div class="content">
-                   <img src="" alt="">
+                   <img src="images/chris.jpg" alt="">
                    <div class="details">
                        <span>Chris le Conquerant</span>
                        <p>This is the text message</p>
@@ -60,7 +60,7 @@
                </a>
                <a href="">
                <div class="content">
-                   <img src="" alt="">
+                   <img src="images/chris.jpg" alt="">
                    <div class="details">
                        <span>Chris le Conquerant</span>
                        <p>This is the text message</p>
@@ -70,7 +70,7 @@
                </a>
                <a href="">
                <div class="content">
-                   <img src="" alt="">
+                   <img src="images/chris.jpg" alt="">
                    <div class="details">
                        <span>Chris le Conquerant</span>
                        <p>This is the text message</p>
@@ -80,7 +80,7 @@
                </a>
                <a href="">
                <div class="content">
-                   <img src="" alt="">
+                   <img src="images/chris.jpg" alt="">
                    <div class="details">
                        <span>Chris le Conquerant</span>
                        <p>This is the text message</p>
@@ -90,7 +90,7 @@
                </a>
                <a href="">
                <div class="content">
-                   <img src="" alt="">
+                   <img src="images/chris.jpg" alt="">
                    <div class="details">
                        <span>Chris le Conquerant</span>
                        <p>This is the text message</p>
@@ -100,7 +100,7 @@
                </a>
                <a href="">
                <div class="content">
-                   <img src="" alt="">
+                   <img src="images/chris.jpg" alt="">
                    <div class="details">
                        <span>Chris le Conquerant</span>
                        <p>This is the text message</p>
@@ -110,7 +110,7 @@
                </a>
                <a href="">
                <div class="content">
-                   <img src="" alt="">
+                   <img src="images/chris.jpg" alt="">
                    <div class="details">
                        <span>Chris le Conquerant</span>
                        <p>This is the text message</p>
@@ -120,7 +120,7 @@
                </a>
                <a href="">
                <div class="content">
-                   <img src="" alt="">
+                   <img src="images/chris.jpg" alt="">
                    <div class="details">
                        <span>Chris le Conquerant</span>
                        <p>This is the text message</p>

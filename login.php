@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="">
 </head>
-<body>
+<body>           
     <div class="wrapper">
         <section class="form signup_up">
             <header>Realtime chat apk</header>
@@ -21,11 +21,11 @@
                     </div>
                     <div class="field ">
                         <label for="">Password</label>
-                        <input id="host" type="password" name="kryfram" id=""  placeholder="Your Password">
+                        <input id="host" type="password" name="keyfram" id=""  placeholder="Your Password">
                         <i class="fas fa-eye"></i>
                     </div>
                     <div class="field">
-                        <input type="submit" value="Continue le chat" class="btn">
+                        <input type="submit" name="submit" value="Continue le chat" class="btn">
                     </div>
                 </div>
             </form>
