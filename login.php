@@ -12,7 +12,7 @@
     <div class="wrapper">
         <section class="form signup_up">
             <header>Realtime chat apk</header>
-            <form action="php/signin.php" method="post">
+            <form action="php/signin.php" method="post" enctype="multipart/form-data">
                 <div class="error-txt">This is an error message !</div>
                 <div class="name-details">
                     <div class="field ">

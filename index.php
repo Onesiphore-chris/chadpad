@@ -12,24 +12,24 @@
     <div class="wrapper">
         <section class="form signup_up">
             <header>Realtime chat apk</header>
-            <form action="php/signup.php" method="post">
+            <form action="php/signup.php" method="post" enctype="multipart/form-data">
                 <div class="error-txt">This is an error message !</div>
                 <div class="name-details">
                     <div class="field ">
                         <label for="">Frist Name</label>
-                        <input id="host" type="text" name="fname" id="" placeholder=" Entrer Frist Name" required>
+                        <input id="host" type="text" name="fname" id="" placeholder=" Entrer Frist Name" required autocomplete="off">
                     </div>
                     <div class="field ">
                         <label for=""> Last Name</label>
-                        <input id="host" type="text" name="lname" id=""  placeholder="Entrer Last Name" required>
+                        <input id="host" type="text" name="lname" id=""  placeholder="Entrer Last Name" required autocomplete="off">
                     </div>
                     <div class="field ">
                         <label for=""> Email Adress</label>
-                        <input id="host" type="email" name="email" id=""  placeholder="Entrer  Email Adress" required>
+                        <input id="host" type="email" name="email" id=""  placeholder="Entrer  Email Adress" required autocomplete="off">
                     </div>
                     <div class="field ">
                         <label for="">Password</label>
-                        <input id="host" type="password" name="keyfram"   id="" placeholder="New Password" required>
+                        <input id="host" type="password" name="keyfram"   id="" placeholder="New Password" required autocomplete="off">
                         <i class="fas fa-eye"></i>
                     <div class="field" id="image">
                         <label for=""> Select image</label>

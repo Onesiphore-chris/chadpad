@@ -33,7 +33,7 @@
                $email => 'email',
                $key => 'keyfram'
            ));
-            echo header('location:../user.php');
+            echo header('location:../login.php');
         }
       
     }else{
